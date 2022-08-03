@@ -30,7 +30,7 @@ botonAdicionar.addEventListener("click", function (event) {
     alturaTd.textContent = altura;
     pesoTd.textContent = peso;
     gorduraTd.textContent = gordura;
-    imcTd.textContent = 0;
+    imcTd.textContent = calcularIMC(peso,altura);
 
     tabla.appendChild(pacienteTr);
     pacienteTr.appendChild(nombreTd);
