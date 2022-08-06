@@ -157,7 +157,12 @@ button[disabled=disabled], button:disabled {
 	padding: 10px;
 	margin-bottom: 16px;
 }
-
+/*Desaparece elementos del html*/
 .invisible{
 	display: none;
+}
+/*Erorres con la conexion ajax*/
+#error-ajax{
+	color: red;
+	font-size: 1.5em;
 }
