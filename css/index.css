@@ -149,3 +149,15 @@ button[disabled=disabled], button:disabled {
 	opacity:0;
 	transition: 0.5s;
 }
+
+/* input de busqueda*/
+
+#filtrar-tabla{
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 16px;
+}
+
+.invisible{
+	display: none;
+}
